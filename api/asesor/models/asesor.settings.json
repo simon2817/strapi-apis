@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "asesors",
+  "info": {
+    "name": "asesor"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "usuario": {
+      "type": "string"
+    },
+    "idusuario": {
+      "type": "integer"
+    }
+  }
+}

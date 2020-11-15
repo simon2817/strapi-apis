@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/idticket",
+      "handler": "idticket.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/idticket",
+      "handler": "idticket.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/idticket",
+      "handler": "idticket.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

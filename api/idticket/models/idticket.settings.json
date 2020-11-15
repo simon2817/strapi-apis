@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "idtickets",
+  "info": {
+    "name": "idticket"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "numeroticket": {
+      "type": "integer"
+    }
+  }
+}
